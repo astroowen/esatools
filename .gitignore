@@ -140,6 +140,9 @@ venv.bak/
 .spyderproject
 .spyproject
 
+# Geany project settings
+.geany
+
 # Rope project settings
 .ropeproject
 
