@@ -1,0 +1,10 @@
+[project]
+name = "esatools"
+version = "0.1.0"
+authors = [
+    { name = "Owen Higgins", email = "owen@higgins.id" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "astropy",
+]
