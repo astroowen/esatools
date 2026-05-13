@@ -1,6 +1,6 @@
 from astropy import units as u
 
-parallax = 0.3189 * u.milliarcsecond # u.mas
+parallax = 1.5461 * u.milliarcsecond # u.mas
 
 distance = parallax.to(u.lightyear, equivalencies=u.parallax())
 

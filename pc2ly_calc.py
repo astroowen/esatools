@@ -1,14 +1,12 @@
 from astropy import units as u
 
-dis = [
-" |   22.80    Mpc |                       |redshift|2010ApJ...725.2270P|",
-" |   21       Mpc |                       |        |2007ApJS..173..185G|",
-" |   22.39    Mpc |                       |redshift|2007ApJ...655..790C|",
-    ]
-if type(dis[0]) == str: dis = [float(d.strip()[1:9]) for d in dis]
+dis = [25]
+if type(dis[0]) == str:
+	dis = [float(d.strip()[1:9]) for d in dis]
+	print("reformatted:", dis)
 
-inunit = u.megaparsec
-outunit = u.megalightyear
+inunit = u.parsec
+outunit = u.lightyear
 
 for d in dis:
     l = (d * inunit).to(outunit)

@@ -1,7 +1,7 @@
 import astropy.units as u
 
 # Distance modulus (magnitudes, ergo unitless) and target unit
-mod = 29.75
+mod = 31.01
 target = u.megaparsec
 
 # Calculate distance in parsec
